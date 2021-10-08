@@ -1,0 +1,43 @@
+.homeHeader {
+  margin-top: 100px;
+  h1 {
+    text-align: center;
+  }
+}
+
+.homeText {
+  margin: 0 auto;
+  width: 500px;
+  height: 300px;
+
+  p {
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+
+.imageRow {
+  width: 600px;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-top: 50px;
+
+  .imageC {
+    width: 300px;
+    margin: 5px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  margin-top: 456px;
+  background-color: grey;
+}
